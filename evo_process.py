@@ -8,11 +8,10 @@ import pandas as pd
 import numpy as np
 from nn import NeuralNetwork
 from utils import gym_render, save_dataframes
-from ant_v4_own import AntEnv
-from walker2d_v4_own import Walker2dEnv
-from bipedal_walker_own import BipedalWalker
-from cartpole_own import CartPoleEnv
-
+from ant_v4_modified import AntEnv
+from walker2d_v4_modified import Walker2dEnv
+from bipedal_walker_modified import BipedalWalker
+from cartpole_modified import CartPoleEnv
 
 class Algo:
     def __init__(self, game, path, xml_path, variations, config, run_id, cluster_id, generation):
