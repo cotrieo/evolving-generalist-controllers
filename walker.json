@@ -1,0 +1,18 @@
+{
+    "game": "Walker2dEnv",
+    "maxFitness": -3000,
+    "nStep": 1000,
+    "NN-struc": [17, 10, 6, 1],
+    "stdev_init": 0.1,
+    "initial_bounds": [-0.00001, 0.00001],
+    "generations": 5000,
+    "filename": "Results_Walker",
+    "xml": "Path/Walkers",
+    "runs": 1,
+    "//comment1": "Parameter1 is upper leg length",
+    "parameter1": [0.225, 0.230],
+    "//comment2": "Parameter2 is lower leg length",
+    "parameter2": [0.25, 0.3],
+    "step_sizes": [0.025, 0.05],
+    "actors": 4
+}

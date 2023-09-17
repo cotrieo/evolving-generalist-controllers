@@ -1,0 +1,18 @@
+{
+    "game": "BipedalWalker",
+    "maxFitness": -20,
+    "nStep": 1600,
+    "NN-struc": [24, 20, 4, 1],
+    "stdev_init": 0.1,
+    "initial_bounds": [-0.00001, 0.00001],
+    "generations": 5000,
+    "filename": "Results_Biped",
+    "xml": "None",
+    "runs": 1,
+    "//comment": "Parameter1 is leg width",
+    "parameter1": [8, 9],
+    "//comment2": "Parameter2 is leg height",
+    "parameter2": [34, 35],
+    "step_sizes": [1, 2],
+    "actors": 4
+}

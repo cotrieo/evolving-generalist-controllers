@@ -1,0 +1,18 @@
+{
+    "game": "CartPoleEnv",
+    "maxFitness": -1000,
+    "nStep": 1000,
+    "NN-struc": [4, 20, 1, 1],
+    "stdev_init": 0.1,
+    "initial_bounds": [-0.00001, 0.00001],
+    "generations": 5000,
+    "filename": "Results_Cart",
+    "xml": "None",
+    "runs": 1,
+    "//comment1": "Parameter1 is mass",
+    "parameter1": [0.1, 0.6],
+    "//comment2": "Parameter2 is pole height",
+    "parameter2": [0.5, 0.8],
+    "step_sizes": [0.1, 0.1],
+    "actors": 4
+}
