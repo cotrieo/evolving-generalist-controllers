@@ -1,8 +1,10 @@
 import pandas as pd
 import numpy as np
 from nn import NeuralNetwork
-from ant_v4_own import AntEnv
-from walker2d_v4_own import Walker2dEnv
+from ant_v4_modified import AntEnv
+from walker2d_v4_modified import Walker2dEnv
+from bipedal_walker_modified import BipedalWalker
+from cartpole_modified import CartPoleEnv
 import os
 
 
