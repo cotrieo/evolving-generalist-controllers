@@ -190,7 +190,7 @@ class Algo:
                 env_counter += 1
                 if env_counter >= len(self.variations):
                     env_counter = 0
-
+            self.parameters = self.variations[env_counter]
 
             elif len(self.variations) == 1:
                 generalist_average_fitness = current_pop_best_fitness
