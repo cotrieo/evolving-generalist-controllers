@@ -81,7 +81,7 @@ class Algo:
             # NN topology determines the solution_length
             initial_bounds=(self.initial_bounds[0], self.initial_bounds[1]),
             # initial bounds limit the initial solutions
-            num_actors=self.actors)  # number of actors that run the evaluation in parallel
+            num_actors=1)  
 
         searcher = XNES(problem, stdev_init=self.initial_stdev)
 
