@@ -1,6 +1,6 @@
 import json
 from utils import generate_morphologies
-from evo_process import Algo
+from evo import Algo
 import os
 import sys
 
