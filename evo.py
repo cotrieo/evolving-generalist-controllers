@@ -187,7 +187,7 @@ class Algo:
             if len(self.variations) > 1:
 
                 # test xbest on all individuals in the morphology set
-                compare = joblib.Parallel(n_jobs=self.actors)(joblib.delayed(self.comparison)(xbest, i)
+                compare = joblib.Parallel(n_jobs=self.actors)(joblib.delayed(self.comparison)(xbest_weights, i)
                                                               for i in range(len(generalist_scores)))
 
                 generalist_scores = np.array(compare)
